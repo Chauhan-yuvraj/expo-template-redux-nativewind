@@ -90,8 +90,6 @@ Pull requests, issues, and suggestions are welcome!
 If you found this template helpful, consider giving it a ⭐️ on GitHub.
 
 ### Happy coding! 💙
-``` bash
 
-Would you like me to create and upload this `README.md` file for you directly as a download link?
 
 
