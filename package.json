@@ -1,6 +1,6 @@
 {
-  "name": "expo-template-redux-nativewind",
-  "version": "1.0.0",
+  "name": "expo-router-redux-nativewind",
+  "version": "1.0.1",
   "description": "An Expo template with Redux, NativeWind, TypeScript, and Expo Router",
   "repository": {
     "type": "git",
@@ -49,7 +49,8 @@
     "src",
     "global.css",
     "tailwind.config.js",
-    "babel.config.js"
+    "babel.config.js",
+    "nativewind-env.d.ts"
   ],
   "publishConfig": {
     "access": "public"
