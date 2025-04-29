@@ -38,7 +38,7 @@
 ### 1. Create a New Project
 
 ```bash
-npx create-expo-app my-app --template github:chauhan-yuvraj/expo-template-redux-nativewind
+npx create-expo-app my-app --template expo-router-redux-nativewind
 ```
 ### 2. Install Dependencies
 ```bash
