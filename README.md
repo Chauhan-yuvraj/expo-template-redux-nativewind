@@ -39,3 +39,59 @@
 
 ```bash
 npx create-expo-app my-app --template github:chauhan-yuvraj/expo-template-redux-nativewind
+```
+### 2. Install Dependencies
+```bash
+cd my-app
+npm install
+```
+## 🧰 Project Structure
+
+```bash
+my-app/
+├── app/                  # Routes (Expo Router)
+├── src/
+│   ├── store/            # Redux slices and store
+│   └── hooks.ts          # Typed Redux hooks
+├── global.css            # Tailwind CSS styles
+├── tailwind.config.js    # Tailwind configuration
+├── App.tsx               # App entry point
+
+```
+## 🎨 Tailwind Setup
+
+```bash
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+### global.css
+``` bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 🤝 Contributing
+Pull requests, issues, and suggestions are welcome!
+
+## ⭐️ Show Your Support
+If you found this template helpful, consider giving it a ⭐️ on GitHub.
+
+### Happy coding! 💙
+``` bash
+
+Would you like me to create and upload this `README.md` file for you directly as a download link?
+
+
